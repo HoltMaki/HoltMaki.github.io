@@ -1,4 +1,4 @@
-HoltMaki-HoltMaki.github.io
+HoltMaki.github.io
 ===========================
 
 Personal Github Page
