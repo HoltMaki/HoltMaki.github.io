@@ -1,21 +1,17 @@
 body {
-	background-color:#FF8040;
-}
-
-.panel {
-	margin-top: 0px;
-	background-color: #8142FF;
-	position:center;
-	display: auto;
-	border-radius: .5em;
+	background-color:#9F00FF;
 }
 
 #name {
+	display: auto;
+	float:top;
+	border-radius: .5em;
+	background-color: #FFA955;
 	margin-top: 0px;
-	color: white;
-	font-family: helvetica;
-	font-size:4em;
-	font-weight: bold;
+	color: #38544D;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size:2em;
 	text-align: center;
 	position:center;
 }
