@@ -1,18 +1,20 @@
 body {
 	background-color:#9F00FF;
+	font-family: sans-serif;
 }
 
 #name {
-	display: auto;
+	display: block;
 	float:top;
-	border-radius: .5em;
-	background-color: #FFA955;
+	margin-right: 4px;
+	margin-top:0px;
+	margin-left: 4px;
+	border-bottom: solid #FFA955;
+	border-bottom-width: medium;
 	margin-top: 0px;
-	color: #38544D;
-	font-family: sans-serif;
-	font-style: italic;
-	font-size:2em;
-	text-align: center;
+	color: #FFA955;
+	font-size: 3.5em;
+	text-align: left;
 	position:center;
 }
 
