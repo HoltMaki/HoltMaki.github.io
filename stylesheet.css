@@ -1,62 +1,80 @@
 @font-face {
-  font-family: 'Noto Sans';
-  font-style: normal;
-  src: local('Noto Sans'), local('NotoSans'), url(https://themes.googleusercontent.com/static/fonts/notosans/v2/JLrcxvhkM17op1c4raL9Fg.woff) format('woff');
+	
+	font-family: 'Noto Sans';
+	font-style: normal;
+
+	src: local('Noto Sans'), local('NotoSans'), url(https://themes.googleusercontent.com/static/fonts/notosans/v2/JLrcxvhkM17op1c4raL9Fg.woff) format('woff');
 }
 
 body {
+	
 	background-color:#BE55FF;
+
 	font-family: 'Noto Sans';
 }
 
 header {
+	
+	eight: 40px;
+
 	display: auto;
+	position:center;
 	padding: 1px;
-	height: 40px;
+
 	margin-right: 4px;
 	margin-top:0px;
 	margin-left: 4px;
+
 	border-bottom: solid #FFA955;
 	border-bottom-width: medium;
-	margin-top: 0px;
+
 	color: #FFA955;
 	font-family: inherit;
 	text-align: left;
-	position:center;
 }
 
 header div h1 {
+	
 	float: left;
 	display:inline-block;
-	font-size: 36px;
 	margin: 0;
+
 	line-height: 38px;
+	
+	font-size: 36px;
 }
 
 header div div h3 {
 	float: right;
 	display:block;
-	font-size: 18px;
 	margin: 0;
-	line-height: 38px
+
+	line-height: 38px;
+
+	font-size: 18px;
 }
 
 header div {
+
 	float: bottom;
 	display: block;
 }
 
 header div div h3 a {
+
 	color: #FFA955;
 	font-style: normal;
 	text-decoration: none;
 }
 
 #profilePicture {
+	
 	background-image: url(https://1.gravatar.com/avatar/92fb317161ea584c44d223fc2102bf46?d=https%3A%2F%2Fidenticons.github.com%2F20f7bfebb4e0e473429ea736d997d74a.png&r=x&s=440);
 	background-size: cover;
+
 	width: 220px;
 	height: 220px;
+
 	border-radius: 10px;
 	border: transparent;
 }
