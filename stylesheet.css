@@ -15,7 +15,7 @@ body {
 
 header {
 	
-	eight: 40px;
+	height: 40px;
 
 	display: auto;
 	position:center;
@@ -68,14 +68,16 @@ header div div h3 a {
 }
 
 #profilePicture {
-	
+
+	margin: .438em;
+
 	background-image: url(https://1.gravatar.com/avatar/92fb317161ea584c44d223fc2102bf46?d=https%3A%2F%2Fidenticons.github.com%2F20f7bfebb4e0e473429ea736d997d74a.png&r=x&s=440);
 	background-size: cover;
 
-	width: 220px;
-	height: 220px;
+	width: 13.750em;
+	height: 13.750em;
 
-	border-radius: 10px;
+	border-radius: .625em;
 	border: transparent;
 }
 
