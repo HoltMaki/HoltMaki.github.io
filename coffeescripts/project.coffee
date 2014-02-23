@@ -1,3 +1,6 @@
 class Project
-  constructor: (@Name, @Repository) ->
+  constructor: (@repo) ->
+    @name = @repo.name
+    @location = @repo.location
+    
   
