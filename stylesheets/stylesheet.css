@@ -69,6 +69,10 @@ header div div h3 a {
 	text-decoration: none;
 }
 
+.fadeIn {
+	opacity: .3;
+}
+
 #profilePicture {
 
 	display:block;
