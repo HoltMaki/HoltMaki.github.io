@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $('fadeIn').fadeTo('fast', 1);
+  $('.fadeIn').fadeTo('fast', 1);
  });
